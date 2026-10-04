@@ -130,8 +130,8 @@ footer{border-top:1px solid var(--rule);padding-top:1rem;font-family:var(--label
 :root{color-scheme:light}
 .mast{border-bottom:1px solid var(--rule);padding-bottom:1rem}
 .mast .name{text-decoration:none;color:var(--fg)}
-.nav{display:flex;flex-wrap:wrap;gap:.5rem;font-family:var(--label);font-size:.78rem;letter-spacing:.06em;text-transform:uppercase}
-.nav a{--brown:#7b4a33;--brown-deep:#4f2c1c;--on-brown:#fbf1e8;background:var(--brown);color:var(--on-brown);text-decoration:none;padding:.5rem 1.05rem;border-radius:999px;box-shadow:0 2px 4px var(--shadow);transition:background .15s}
+.nav{display:flex;flex-wrap:wrap;gap:.4rem;font-family:var(--label);font-size:.68rem;letter-spacing:.06em;text-transform:uppercase}
+.nav a{--brown:#7b4a33;--brown-deep:#4f2c1c;--on-brown:#fbf1e8;background:var(--brown);color:var(--on-brown);text-decoration:none;padding:.28rem .75rem;border-radius:999px;box-shadow:0 2px 4px var(--shadow);transition:background .15s}
 .nav a:hover{background:var(--brown-deep)}
 .nav a:focus-visible{outline:2px solid var(--brass);outline-offset:3px}
 .nav a[aria-current="page"]{background:var(--brown-deep);box-shadow:0 0 0 2px var(--wall),0 0 0 4px var(--brown-deep)}
